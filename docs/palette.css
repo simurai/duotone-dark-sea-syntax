@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 18px;
+  font-family: 'BlinkMacSystemFont', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+atom-text-editor {
+  display: block;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header ------------- */
+
+header {
+  padding-top: 6em;
+}
+
+.logo {
+  display: block;
+  width: 12em;
+  margin: 0 auto;
+  padding: 4em 0;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 0.9;
+  text-align: center;
+  border: 2px solid hsla(0,0%,100%,.1);
+}
+.logo-row {
+  display: block;
+  text-transform: uppercase
+}
+.logo-row:nth-child(1) { font-size: 2.5em; }
+.logo-row:nth-child(2) { font-size: 2em; }
+
+.logo-name {
+  display: block;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+
+
+
+
+/* Palette ------------- */
+
+.palette {
+  padding: 2em 0 6em 0;
+  max-width: 20em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.palette-color {
+  font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+.palette-color:before {
+  content: "";
+  display: inline-block;
+  width: .8em;
+  height: 1.6em;
+  margin-right: 1em;
+  vertical-align: middle;
+  background-color: currentColor;
+}
+.palette-color.bg:before {
+  box-sizing: border-box;
+  border: 2px solid hsla(0,0%,100%,.1);
+  background-color: inherit;
+}
+
+.palette-color.duo-1 {
+  margin-top: 1em;
+}
+
+.palette-color.bg {
+  position: fixed;
+  top: .5em;
+  right: 2em;
+  transform: rotate(-90deg);
+  transform-origin: bottom right;
+}
+
+.palette-color p,
+.palette-color span {
+  display: inline-block;
+  margin: 0 .5em;
+  vertical-align: middle;
+}
+
+/* hover */
+.palette-color span {
+  opacity: .2;
+}
+.palette-color:hover span {
+  opacity: 1;
+}
+
+
+/* Code ------------- */
+
+.code {
+  font-family: 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  max-width: 24em;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+
+/* Footer ------------- */
+
+footer {
+  font-size: .8em;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+footer .code {
+  display: block;
+  padding: .4em .8em;
+  margin-top: 1em;
+  border-radius: .2em;
+  font-size: inherit;
+  border: 1px solid hsla(0,0%,100%,.1);
+}
