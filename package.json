@@ -16,6 +16,6 @@
     "atom": ">1.0.0"
   },
   "dependencies": {
-    "duotone-syntax": "2.0.0"
+    "duotone-syntax": "^2.0.0"
   }
 }
