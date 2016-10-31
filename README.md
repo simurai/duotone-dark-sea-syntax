@@ -2,11 +2,9 @@
 
 A double-hue syntax theme for Atom.
 
-![duotone](docs/screenshot.png)
+![duotone](https://github.com/simurai/duotone-dark-sea-syntax/raw/master/docs/screenshot.png)
 
 DuoTone themes use only 2 hues (8 shades in total). It __tones down__ less important parts (like punctuation and brackets) and highlights only the __important__ ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.
-
-![screenshot code](docs/screenshot-code.png)
 
 ## Language support
 
