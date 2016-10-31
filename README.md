@@ -12,7 +12,7 @@ DuoTone themes are optimized for many languages:
 
 > C, Clojure, CoffeeScript, C#, CSS, GF Markdown, Go, Haskell, HTML, Java, JavaScript, JSON, Less, Perl, PHP, Python, Ruby, SASS, SCSS, Stylus, XML, YAML...
 
-See the list of [all languages](/styles/languages).
+See the list of [all languages](https://github.com/simurai/duotone-syntax/tree/master/styles/languages).
 
 
 ## Variations
